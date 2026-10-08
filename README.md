@@ -1,27 +1,22 @@
-# Siva Gali — Azure Data Engineer Portfolio
+# Sivaprasad Gali — Azure Data Engineer Portfolio V6
 
-A responsive, light-theme static portfolio built with HTML, CSS and JavaScript. No build step required.
+Responsive HTML/CSS/JavaScript website with six anonymised project case studies, architecture diagrams, a visual toolchain, career history, education, certifications and a bundled downloadable resume.
 
-## Preview locally
-Open `index.html` in a browser. For full local behaviour, use VS Code Live Server or run `python -m http.server 8000` in this folder, then visit http://localhost:8000.
+## Preview
+Open `index.html` locally. Click Download CV to download `resume.pdf`.
 
-## Personalise before publishing
-1. Add your actual resume PDF as `resume.pdf` in this folder. The download link is intentionally disabled until the PDF exists.
-2. Update the GitHub link in `index.html` (currently points to github.com home).
-3. Verify all project descriptions, experience and skill levels.
-4. Add your professional email or other contact details if desired.
-5. Review public disclosure permissions before sharing employer-related information.
+## Publish to your existing GitHub Pages website
+1. Open https://github.com/sivagaali/Profile-portfolio
+2. Extract this ZIP. Upload **all files and the projects folder** from inside `siva-portfolio-v6/` to the repository root. Replace existing versions of `index.html`, `styles.css`, `script.js`, `README.md`, and project pages. Include `resume.pdf`.
+3. Commit to `main`. Verify Settings > Pages deploys from `main` and `/(root)`.
+4. Wait for Actions > Pages deployment success, then open https://sivagaali.github.io/Profile-portfolio/ and hard-refresh.
+5. Test Download CV, all six project links, and mobile navigation.
 
-## Publish on GitHub Pages
-1. Sign in to https://github.com and note your exact GitHub username.
-2. Create a **public** repository named `<username>.github.io` (replace `<username>` with your username).
-3. Upload `index.html`, `styles.css`, `script.js` and optionally `resume.pdf` into the repository root (not a nested folder). Commit changes.
-4. Open repository **Settings → Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**; choose **main** and **/(root)**; click **Save**.
-6. Wait for publishing, then visit `https://<username>.github.io/`.
-7. For future edits, commit changed files to `main`; Pages will republish.
-
-Docs: https://docs.github.com/en/pages/quickstart
-
-## Notes
-This portfolio includes anonymised, high-level case studies only. Do not upload confidential documents, screenshots, credentials, source code or internal infrastructure information from your employer.
+## Content notes
+- Employment dates and job titles follow the uploaded latest resume, including overlapping KiwiRail project assignment dates. KiwiRail job title is Azure Data Engineer, not Senior Data Engineer.
+- Certifications DP-203, AZ-900, 70-778 and Databricks Data Engineer Associate are listed as previously earned per owner confirmation, without invented verification links or active-status claims.
+- DP-700 Fabric Data Engineer Associate is clearly marked as planned, not completed.
+- Databricks/PySpark are labelled practical Digital Wagons exposure; Fabric migration is basic exposure.
+- Contact links use the LinkedIn URL on the latest resume and the GitHub username supplied by the owner. Confirm before publishing.
+- The downloadable PDF is exactly the user-supplied latest resume. It includes contact details, so confirm you want those details public before publishing.
+- All case-study diagrams are conceptual and anonymised. Do not publish company secrets, source code, internal URLs or private datasets.
